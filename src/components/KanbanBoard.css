@@ -1,0 +1,23 @@
+.kanban-container {
+  padding: 1rem;
+  font-family: sans-serif;
+}
+.kanban-columns {
+  display: flex;
+  gap: 1rem;
+}
+.kanban-column {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 300px;
+  min-height: 300px;
+}
+.kanban-item {
+  background: white;
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  cursor: grab;
+}
